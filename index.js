@@ -24,7 +24,8 @@
 // // ANSWER: O(1)
 
 // // Q: Could you come up with a solution that has a better time complexity? If so, what is that time complexity?
-// // ANSWER: console.log(numbers[4]);
+// // ANSWER: No, time complexity is still the same.
+//console.log(numbers[4]);
 
 // // 2) -------------------------------------------------------
 // function printA() {
