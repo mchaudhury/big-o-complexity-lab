@@ -131,7 +131,7 @@ function squareEveryDigitOne(number) {
 
 squareEveryDigitOne(946);
 
-const squareEveryDigit = (number) => {
+const squareEveryDigitTwo = (number) => {
   let squaredNumsArr = [];
   let numArray = number.toString().split("");
 
@@ -146,5 +146,18 @@ const squareEveryDigit = (number) => {
 
   return finalNum;
 };
+
+squareEveryDigitTwo(946);
+
+function squareEveryDigit(numb) {
+  let currentStr = "";
+  let squaredNums = 0;
+  let stringNum = numb.toString();
+  for (let i = 0; i < stringNum.length; i++) {
+    currentStr += +stringNum.charAt(i) * +stringNum.charAt(i);
+  }
+  console.log(currentStr);
+  return currentStr;
+}
 
 squareEveryDigit(946);
